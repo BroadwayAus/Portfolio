@@ -1,14 +1,22 @@
-/*
-    Home Styling
-*/
+/*    Home Styling    */
 
 .welcome{
-    display: flex;
-    justify-content: center;
+    padding-left: 3%;
+    padding-top: 85%;
     align-items: center;
-    background-color: blue;
 
     h1{
+        width: 50%;
+        font-size: 3.5em;
+    }
 
+    h2{
+        padding-top: 10%;
+        font-size: 2em;
+    }
+
+    h3{
+        padding-top: 5%;
+        font-size: 1.3em;
     }
 }

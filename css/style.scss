@@ -1,2 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 @import "./partials/variables";
 @import "./partials/home";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F3F8F2;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-menu{
+    // display: none;
+}
