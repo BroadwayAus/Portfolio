@@ -210,6 +210,39 @@ h1 {
   }
 }
 
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.skills img {
+  height: 10%;
+  width: 40%;
+  padding: 5%;
+}
+
+.skills .npm_logo {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+}
+
+@media only screen and (min-width: 769px) {
+  /* For desktop: */
+}
+
 * {
   margin: 0;
   padding: 0;
