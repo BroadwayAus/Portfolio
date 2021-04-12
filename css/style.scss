@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 @import "./partials/variables";
 @import "./partials/home";
+@import "./partials/blog";
 
 *{
     margin: 0;
-    padding: 0;
+    padding: 1%;
+    padding-right: 1%;
     box-sizing: border-box;
     background-color: #D9D9D9;
     font-family: 'Quicksand', sans-serif;
@@ -103,7 +105,9 @@
       #selected{
           border-left: none;
           border-bottom: solid 2px;
-
+          background-color: #111111a6;
+          border-radius: 10%;
+          transform: scale(1.3);
       }
 
   }
