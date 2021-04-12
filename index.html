@@ -5,10 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./scripts/nav_menu.js"></script> 
     <title>Portfolio - Home</title>
 </head>
 <body>
-    <nav class="nav-menu">
+    <div class="menu_btn">
+        <a href="javascript:void(0);" onclick="navMenu()">
+            <img src="./img/menu_btn.svg" alt="Menu icon.">
+        </a>
+    </div>
+    <nav class="mobile_nav">
+        <div id="mobile_links">
+            <a href="./index.html">Home</a>
+            <a href="./blog.html">Blog</a>
+            <a href="">Projects</a>
+            <a href="">Skills</a>
+            <a href="">Contact</a>
+        </div>
+    </nav>
+    <nav class="nav_menu">
         <a href="./index.html" id="selected">Home</a>
         <a href="./blog.html">Blog</a>
         <a href="">Projects</a>

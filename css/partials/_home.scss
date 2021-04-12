@@ -1,8 +1,6 @@
 /*    Home Styling    */
 
-footer{
-    display: none;
-}
+footer{display: none}
 
 .welcome{
     padding-left: 3%;
@@ -24,9 +22,7 @@ footer{
     }
 }
 
-.resume{
-    display: none;
-}
+.resume{display: none}
 
 @media only screen and (min-width: 600px) {
     .welcome{
