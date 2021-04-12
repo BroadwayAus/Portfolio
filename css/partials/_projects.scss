@@ -1,0 +1,85 @@
+h1{font-size: 3.5em;}
+.skill_icons{display: none;}
+
+.project1{
+
+    padding: 2%;
+    a{
+        display: flex;
+        justify-content: center;
+
+        img{
+
+            height: 30vh;
+            width: 90vw;
+        }
+    }
+    p{
+        text-align: center;
+    }
+}
+
+.project2{
+
+    padding: 2%;
+    a{
+        display: flex;
+        justify-content: center;
+
+        img{
+
+            height: 30vh;
+            width: 90vw;
+        }
+    }
+    p{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .skill_icons{
+        display: flex;
+        justify-content: center;
+        padding: 1%;
+
+        img{
+            width: 4vw;
+            height: 3vh;
+        }
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    /* For desktop: */
+.project1{
+    a{
+        img{
+            height: 50vh;
+            width: 40vw;
+        }
+    }
+}
+
+.project2{
+    a{
+        img{
+            height: 50vh;
+            width: 40vw;
+        }
+    }
+}
+
+.skill_icons{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+
+    img{
+        width: 3vw;
+        height: 5vh;
+    }
+}
+
+}

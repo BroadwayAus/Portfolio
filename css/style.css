@@ -65,11 +65,6 @@ h3 {
   padding-bottom: 5%;
 }
 
-.post1 .divider {
-  border-top: 2px solid black;
-  padding-bottom: 2%;
-}
-
 .post2 {
   padding-left: 2%;
   padding-right: 2%;
@@ -78,11 +73,6 @@ h3 {
 .post2 .project_img2 {
   height: 40%;
   width: 99%;
-  padding-bottom: 5%;
-}
-
-.post2 .divider {
-  border-top: 2px solid black;
   padding-bottom: 5%;
 }
 
@@ -126,6 +116,100 @@ h3 {
   }
 }
 
+h1 {
+  font-size: 3.5em;
+}
+
+.skill_icons {
+  display: none;
+}
+
+.project1 {
+  padding: 2%;
+}
+
+.project1 a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.project1 a img {
+  height: 30vh;
+  width: 90vw;
+}
+
+.project1 p {
+  text-align: center;
+}
+
+.project2 {
+  padding: 2%;
+}
+
+.project2 a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.project2 a img {
+  height: 30vh;
+  width: 90vw;
+}
+
+.project2 p {
+  text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .skill_icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 1%;
+  }
+  .skill_icons img {
+    width: 4vw;
+    height: 3vh;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  /* For desktop: */
+  .project1 a img {
+    height: 50vh;
+    width: 40vw;
+  }
+  .project2 a img {
+    height: 50vh;
+    width: 40vw;
+  }
+  .skill_icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 1%;
+  }
+  .skill_icons img {
+    width: 3vw;
+    height: 5vh;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -134,6 +218,11 @@ h3 {
           box-sizing: border-box;
   background-color: #D9D9D9;
   font-family: 'Quicksand', sans-serif;
+}
+
+.divider {
+  border-top: 2px solid black;
+  padding-bottom: 2%;
 }
 
 /* Global nav/footer styling */
