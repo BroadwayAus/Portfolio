@@ -23,8 +23,10 @@ footer{display: none}
 .resume{display: none}
 
 @media only screen and (min-width: 600px) {
+    /* For tablets: */
     .welcome{
         text-align: center;
+        margin-bottom: 18vh;
     }
 }
 
@@ -34,6 +36,7 @@ footer{display: none}
         text-align: center;
         padding-left: 3%;
         padding-top: 20vh;
+        margin-bottom: 16vh;
     }
 }
 
