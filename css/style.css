@@ -299,6 +299,35 @@ h1 {
   }
 }
 
+.contact_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.contact_form iframe {
+  margin: 5%;
+}
+
+.contact_form input {
+  margin: 10%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+}
+
+@media only screen and (min-width: 769px) {
+  /* For desktop: */
+}
+
 * {
   margin: 0;
   padding: 0;
