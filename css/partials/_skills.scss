@@ -3,21 +3,76 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    img{
-        height: 10%;
-        width: 40%;
-        padding: 5%;
-    }
-    .npm_logo{
-        align-self: center;
-    }
+
+    .skill_container{
+        text-align: center;
+        width: 80%;
+        
+        img{
+            height: 80%;
+            width: 40%;
+            padding: 5%;
+        }
+
+        .npm_logo{
+            align-self: center;
+        }
+    }    
 }
+
 
 @media only screen and (min-width: 600px) {
     /* For tablets: */
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20% 10% 53% 10%;
+    
+        .skill_container{
+            text-align: center;
+            width: 20%;
+
+            img{
+                height: 10vh;
+                width: 12vw;
+                padding: 10%;
+            }
+            
+            .npm_logo{
+                height: 5vh;
+                margin-top: 20%;
+                margin-bottom: 37%;
+            }
+        }
+    }
 }
 
 
 @media only screen and (min-width: 769px) {
     /* For desktop: */
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 4% 25%;
+    
+        .skill_container{
+            text-align: center;
+            width: 25%;
+            margin-bottom: 0;
+
+            img{
+                height: 24vh;
+                width: 12vw;
+                padding: 10%;
+            }
+            
+            .npm_logo{
+                height: 12vh;
+                margin-top: 35%;
+                margin-bottom: 18%;
+            }
+        }
+    }
 }

@@ -223,13 +223,18 @@ h1 {
       align-content: center;
 }
 
-.skills img {
-  height: 10%;
+.skills .skill_container {
+  text-align: center;
+  width: 80%;
+}
+
+.skills .skill_container img {
+  height: 80%;
   width: 40%;
   padding: 5%;
 }
 
-.skills .npm_logo {
+.skills .skill_container .npm_logo {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -237,10 +242,61 @@ h1 {
 
 @media only screen and (min-width: 600px) {
   /* For tablets: */
+  .skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 20% 10% 53% 10%;
+  }
+  .skills .skill_container {
+    text-align: center;
+    width: 20%;
+  }
+  .skills .skill_container img {
+    height: 10vh;
+    width: 12vw;
+    padding: 10%;
+  }
+  .skills .skill_container .npm_logo {
+    height: 5vh;
+    margin-top: 20%;
+    margin-bottom: 37%;
+  }
 }
 
 @media only screen and (min-width: 769px) {
   /* For desktop: */
+  .skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 4% 25%;
+  }
+  .skills .skill_container {
+    text-align: center;
+    width: 25%;
+    margin-bottom: 0;
+  }
+  .skills .skill_container img {
+    height: 24vh;
+    width: 12vw;
+    padding: 10%;
+  }
+  .skills .skill_container .npm_logo {
+    height: 12vh;
+    margin-top: 35%;
+    margin-bottom: 18%;
+  }
 }
 
 * {
