@@ -15,6 +15,8 @@ h3{padding-top: 2%;}
         width: 99%;
         padding-bottom: 5%;
     }
+
+    p{background-color: #ecf3f3;}
 }
 
 .post2{
@@ -26,6 +28,8 @@ h3{padding-top: 2%;}
         width: 99%;
         padding-bottom: 5%;
     }
+    
+    p{background-color: #ecf3f3;}
 }
 
 @media only screen and (min-width: 600px) {
@@ -59,31 +63,32 @@ h3{padding-top: 2%;}
 
 }
 
-
-
 @media only screen and (min-width: 769px) {
     /* For desktop: */
 
     .post1{
+        padding-bottom: 2%;
 
-        p{padding-bottom: 5%;}
+
+            p{padding-bottom: 5%;}
         
-        .project_img1{
-            // float: right;
-            height: 35vh;
-            width: 35vw;
-            padding-bottom: 1%;
-            padding-left: 2%;
-        }
+            .project_img1{
+                // float: right;
+                height: 300px;
+                width: 500px;
+                padding-bottom: 1%;
+                padding-left: 2%;
+            }
     }
 
     .post2{
+        padding-bottom: 2%;
 
-        .project_img2{
-            height: 35vh;
-            width: 35vw;
-            padding-bottom: 1%;
-        }
+            .project_img2{
+                height: 300px;
+                width: 500px;
+                padding-bottom: 1%;
+            }
 
     }
 

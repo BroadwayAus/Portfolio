@@ -13,6 +13,7 @@
 
     input{margin: 5%;}
 
+
     input[type=text], input[type=email] {
         width: 100%;
         background-color: white;
@@ -22,13 +23,15 @@
       }
 
     input[type=submit] {
-        width: 100%;
-        background-color: #2e2e2e;
-        color: white;
-        padding: 8px 20px;
-        margin: 8px 0;
-        border-radius: 4px;
-      }
+        padding: 0.3em 1.2em;
+        margin: 0 0.3em 0.3em 0;
+        border-radius: 2em;
+        font-weight: 300;
+        color:#FFFFFF;
+        background-color:#2e2e2e;
+        text-align: center;
+        transition: all 0.2s;
+        }
 
       #message{
           height: 20vh;
@@ -55,5 +58,9 @@
     /* For desktop: */
     .contact_form{
         width: 50vw;
+
+        .submit:hover{background-color:#969696;}
+
+        input[type=submit] {width: 20%;}
     }
 }
