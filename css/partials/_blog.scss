@@ -45,9 +45,7 @@ h3{padding-top: 2%;}
 
     .post2{
 
-        h3{
-            text-align: right;
-        }
+        h3{text-align: right;}
         
         .project_img2{
             float: left;
@@ -68,22 +66,21 @@ h3{padding-top: 2%;}
 
     .post1{
 
-        p{
-            padding-bottom: 5%;
-        }
+        p{padding-bottom: 5%;}
         
         .project_img1{
             // float: right;
             height: 35vh;
             width: 35vw;
             padding-bottom: 1%;
+            padding-left: 2%;
         }
     }
 
     .post2{
 
         .project_img2{
-            height: 40vh;
+            height: 35vh;
             width: 35vw;
             padding-bottom: 1%;
         }
