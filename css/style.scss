@@ -5,6 +5,7 @@
 @import "./partials/projects";
 @import "./partials/skills";
 @import "./partials/contact";
+@import "./partials/partical";
 
 *{
     margin: 0;
@@ -18,7 +19,7 @@
 html{
     // border: 10px solid black;
     // background-image: linear-gradient(to right, #eae3c8 , #cfc5a5);
-    background-image:url(../img/background_img.png);
+    // background-image:url(../img/background_img.png);
     background-repeat: repeat;
 }
 
@@ -51,7 +52,7 @@ html{
             display: none;
             width: 80%;
             height: 100%;
-            background-color: #818181;
+            background-color: #ecf3f3;
             border: 2px solid black;
 
                 a{
@@ -108,7 +109,7 @@ html{
   }
 
   footer{
-          background-color: #e6e6e6;
+          background-color: #ecf3f3;
           display: inline-flex;
           justify-content: flex-end;
           position: fixed;
