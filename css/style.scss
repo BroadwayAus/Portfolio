@@ -5,7 +5,7 @@
 @import "./partials/projects";
 @import "./partials/skills";
 @import "./partials/contact";
-@import "./partials/partical";
+@import "./partials/particle";
 
 *{
     margin: 0;
@@ -56,7 +56,7 @@ html{
 
             .menu_btn_close{
 
-              img{
+              .menu_close{
                 display: flex;
                 justify-content: flex-start;
                 width: 43px;
@@ -80,6 +80,37 @@ html{
                     transition: 0.3s;
                 }
     }
+}
+
+.socials{
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+
+  a{
+    height: 100%;
+    width: 100%;
+    align-content: center;
+  }
+
+  img{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    justify-content: flex-start;
+    width: 43px;
+    height: 43px;
+    left: 80%;
+    top: 2%;
+  }
+
+  .resume{
+    align-self: center;
+    justify-content: center;
+    padding-right: 1%;
+  }
 }
 
 .nav_menu{display: none;}
