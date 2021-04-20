@@ -57,7 +57,12 @@
 @media only screen and (min-width: 769px) {
     /* For desktop: */
     .contact_form{
-        width: 50vw;
+        width: 40vw;
+
+        label{
+            width: 100%;
+            text-align: center;
+        }
 
         .submit:hover{background-color:#969696;}
 
