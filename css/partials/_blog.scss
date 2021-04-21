@@ -6,11 +6,11 @@ h1{
 }
 h3{padding-top: 2%;}
 
-.post1{
+.post_left{
     padding-left: 2%;
     padding-right: 2%;
 
-    .project_img1{
+    .img_left{
         height: 40%;
         width: 99%;
         padding-bottom: 5%;
@@ -19,11 +19,11 @@ h3{padding-top: 2%;}
     p{background-color: #ecf3f3;}
 }
 
-.post2{
+.post_right{
     padding-left: 2%;
     padding-right: 2%;
 
-    .project_img2{
+    .img_right{
         height: 40%;
         width: 99%;
         padding-bottom: 5%;
@@ -37,9 +37,9 @@ h3{padding-top: 2%;}
 
     h1{text-align: center;}
 
-    .post1{
+    .post_left{
 
-        .project_img1{
+        .img_left{
             float: right;
             height: 30%;
             width: 40%;
@@ -47,11 +47,11 @@ h3{padding-top: 2%;}
         }
     }
 
-    .post2{
+    .post_right{
 
         h3{text-align: right;}
         
-        .project_img2{
+        .img_right{
             float: left;
             height: 30%;
             width: 40%;
@@ -59,21 +59,17 @@ h3{padding-top: 2%;}
             padding-right: 2%;
         }
     }
-
-
 }
 
 @media only screen and (min-width: 769px) {
     /* For desktop: */
 
-    .post1{
+    .post_left{
         padding-bottom: 2%;
-
 
             p{padding-bottom: 5%;}
         
-            .project_img1{
-                // float: right;
+            .img_left{
                 height: 300px;
                 width: 500px;
                 padding-bottom: 1%;
@@ -81,15 +77,15 @@ h3{padding-top: 2%;}
             }
     }
 
-    .post2{
+    .post_right{
         padding-bottom: 2%;
 
-            .project_img2{
+        p{padding-bottom: 5%;}
+
+            .img_right{
                 height: 300px;
                 width: 500px;
                 padding-bottom: 1%;
             }
-
     }
-
 }

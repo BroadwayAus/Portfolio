@@ -63,7 +63,7 @@ This project's target audience includes but is not limited to colleagues, potent
 The tech used to develop and maintain this project include:
  
 * HTML5
-* CSS/SASS
+* CSS3/SASS
 * JavaScript
 * Netlify
 * Formspree API
