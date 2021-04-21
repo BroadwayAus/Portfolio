@@ -5,6 +5,7 @@ h1{
     font-size: 5em;
 }
 h3{padding-top: 2%;}
+time{font-style: italic;}
 
 .post_left{
     padding-left: 2%;
@@ -50,6 +51,11 @@ h3{padding-top: 2%;}
     .post_right{
 
         h3{text-align: right;}
+
+        .date_right{
+            display: flex;
+            justify-content: flex-end;
+        }
         
         .img_right{
             float: left;
