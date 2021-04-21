@@ -38,21 +38,21 @@ These pages are made of many components, such as:
 * Articles
  
 # Sitemap
-<img alt="Image of portfolio sitemap" src="./img/README_Imgs/Sitemap.png" width="600">
+<img alt="Image of portfolio sitemap" src="./docs/Sitemap.png" width="600">
  
 # Screenshots
  
 ### Wireframe
  
-<img alt="Image of mobile wireframe" src="./img/README_Imgs/Wireframe_Mobile.png" width="150">
-<img alt="Image of tablet wireframe" src="./img/README_Imgs/Wireframe_Tablet.png" width="200">
-<img alt="Image of desktop wireframe" src="./img/README_Imgs/Wireframe_Desktop.png" width="380" height="300">
+<img alt="Image of mobile wireframe" src="./docs/Wireframe_Mobile.png" width="150">
+<img alt="Image of tablet wireframe" src="./docs/Wireframe_Tablet.png" width="200">
+<img alt="Image of desktop wireframe" src="./docs/Wireframe_Desktop.png" width="380" height="300">
  
 ### Live site
  
-<img alt="Image of mobile view" src="./img/README_Imgs/Live_Mobile.png" width="150">
-<img alt="Image of tablet view" src="./img/README_Imgs/Live_Tablet.png" width="250">
-<img alt="Image of desktop view" src="./img/README_Imgs/Live_Desktop.png" width="500" height="300">
+<img alt="Image of mobile view" src="./docs/Live_Mobile.png" width="150">
+<img alt="Image of tablet view" src="./docs/Live_Tablet.png" width="250">
+<img alt="Image of desktop view" src="./docs/Live_Desktop.png" width="500" height="300">
  
 # Target Audience
  
